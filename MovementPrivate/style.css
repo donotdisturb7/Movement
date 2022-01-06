@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', 'sans-serif';
+}
+header
+{
+    position: relative;
+    width:100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo
+{
+    position: relative;
+    color: #222;
+    text-decoration: none;
+    font-size: 2em;
+     font-weight: 700;
+}
+
+.group
+{
+    position: relative;
+    display: flex;
+}
+.group .bar,
+.group .action
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group ul li
+{
+    list-style: none;
+}
+.group ul li a
+{
+    color: #222;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.group ul li a:hover,
+.group ul li a.active
+{
+    background-color:#e3bb76;
+    border-radius: 18px;
+}
+.group .action
+{
+    margin-left: 20px;
+}
+.group .action li a
+{
+    font-size: 1.20em;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    padding: 0 100px;
+}
+.banner .bg
+{
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover
+{
+    position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.content
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content h2
+{
+     position: relative;
+     color: white;
+     font-size: 6em;
+     font-weight: 1000;
+    
+}
+
+.reserve
+{
+    display: inline-block;
+    background: #ede54e;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.chercher
+{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 30px 50px;
+    transform: translateY(50%);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0,1);
+}
+
+.chercher .input
+{
+    margin: 0 20px;
+}
+.chercher .input p 
+{
+    color: #222;
+    margin-bottom: 10px;
+    
+}
+.chercher .input p.blanc
+{
+    color: white;
+}
+.chercher .input input
+{
+    border: 1px solid #222;
+    outline: none;
+    padding: 10px;
+    width: 100% ;
+    min-width: 100px;
+    min-height: 10px;
+    font-size: 1.1em;
+}
+.chercher .input input[type="submit"]
+{
+    outline: none;
+    border: none;
+    background: orangered;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: 13px;
+}
